@@ -1,4 +1,4 @@
-package mp3
+package minimp3
 
 import (
 	"github.com/faiface/beep/speaker"

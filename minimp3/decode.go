@@ -1,5 +1,5 @@
-// Package mp3 implements audio data decoding in MP3 format.
-package mp3
+// Package minimp3 implements audio data decoding in MP3 format.
+package minimp3
 
 import (
 	"github.com/tosone/minimp3"
