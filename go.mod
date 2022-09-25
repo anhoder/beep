@@ -12,6 +12,4 @@ require (
 	github.com/tosone/minimp3 v1.0.1
 )
 
-replace (
-	github.com/tosone/minimp3 v1.0.1 => github.com/anhoder/minimp3 v1.0.4
-)
+replace github.com/tosone/minimp3 v1.0.1 => github.com/anhoder/minimp3 v1.0.5
