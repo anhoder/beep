@@ -3,6 +3,7 @@ module github.com/faiface/beep
 go 1.14
 
 require (
+	github.com/cocoonlife/goflac v0.0.0-20170210142907-50ea06ed5a9d // indirect
 	github.com/gdamore/tcell v1.3.0
 	github.com/hajimehoshi/go-mp3 v0.3.0
 	github.com/hajimehoshi/oto v0.7.1
