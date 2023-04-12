@@ -16,5 +16,5 @@ require (
 
 replace (
 	github.com/cocoonlife/goflac v0.0.0-20170210142907-50ea06ed5a9d => github.com/anhoder/goflac v0.1.0
-	github.com/tosone/minimp3 v1.0.1 => github.com/anhoder/minimp3 v1.0.5
+	github.com/tosone/minimp3 v1.0.1 => github.com/anhoder/minimp3 v1.0.6
 )
