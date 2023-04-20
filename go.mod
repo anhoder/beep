@@ -15,6 +15,6 @@ require (
 )
 
 replace (
-	github.com/cocoonlife/goflac v0.0.0-20170210142907-50ea06ed5a9d => github.com/go-musicfox/goflac v0.1.4
+	github.com/cocoonlife/goflac v0.0.0-20170210142907-50ea06ed5a9d => github.com/go-musicfox/goflac v0.1.5
 	github.com/tosone/minimp3 v1.0.1 => github.com/go-musicfox/minimp3 v1.0.6
 )
