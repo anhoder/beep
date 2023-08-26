@@ -1,16 +1,17 @@
 package minimp3
 
 import (
-	"github.com/faiface/beep/speaker"
 	"log"
 	"net/http"
 	"testing"
 	"time"
+
+	"github.com/faiface/beep/speaker"
 )
 
 func TestMp3(t *testing.T) {
 
-	resp, _ := http.Get("http://m801.music.126.net/20220916220332/344de4d472ba8a4a49dc8f8637d646b5/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/9444694535/c8bb/65da/db54/9e257ff0610f84e4242cf0127dac6005.mp3")
+	resp, _ := http.Get("http://m10.music.126.net/20230826232756/a34d7413ef11640d3ad2a5f10b91a2dd/ymusic/466b/40f0/1794/414344cd36fa2d9b177464719cd6c8cd.mp3")
 
 	streamer, format, _ := Decode(resp.Body)
 
